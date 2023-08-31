@@ -223,12 +223,12 @@ footer{
 }
 .socialIcons a:hover{
     background-color:#111;
-    transition: 0.5s;
+   /* transition: 0.5s; */
     color: white;
 }
 .socialIcons a:hover i{
     background-color:#fff;
-    transition: 0.5s;
+    /*transition: 0.5s; */
     color: #111;
 }
 .footerBottom{
