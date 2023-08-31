@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
 *{
   margin: 0;
@@ -19,6 +19,8 @@ body{
     background-image: url(image/bg.jpg);
     background-size: 100% 100vh;
     background-position: fixed;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     backdrop-filter: blur(3px);
 }
 
@@ -68,7 +70,7 @@ body{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding-top: 100px;
+    padding: 0px 0px 60px 0px;
     width: 100%;
     gap: 40px;
 }
@@ -76,65 +78,68 @@ body{
 .card{
     background: transparent;
     width: 220px;
-    height: 400px;
     margin: 10px;
     border-radius: 15px;
+    object-fit: contain;
 }
 
 .card-image {
-    height: 150px;
+    height: 220px;
     margin-bottom: 15px;
     background-size: cover;
     border-radius: 15px 15px 0 0;
 }
 
 .card a{
-    background-color: linear-gradient(90deg, rgba(246,134,50,1) 29%, rgba(0,168,89,1) 80%);
+    font-family: 'Oswald', sans-serif;
     color: #fff;
-    padding: 15px 20px;
+    padding: 15px 0px 0 0;
     display: block;
     text-align: center;
-    margin: 20px 50px;
-}
+    margin: 20px 0px 0px 0px;
+    font-size: 30px;
+    text-decoration: none;
+    font-style: bold;
+}  
 
 .clg-1{
     background-image: url(clg-logo/SNSCE.png);
 }
 
 .clg-2{
-    background-image: url(clg-logo/SNSCE.png);
+    background-image: url(clg-logo/snsct.png);
 }
 
 .clg-3{
-    background-image: url(clg-logo/SNSCE.png);
+    background-image: url(clg-logo/DRSNSRCAS.png);
 }
 
 .clg-4{
-    background-image: url(clg-logo/SNSCE.png);
+    background-image: url(clg-logo/DRSNSCE.png);
 }
 
 .clg-5{
-    background-image: url(clg-logo/SNSCE.png);
+    background-image: url(clg-logo/bschool.png);
 }
 
 .clg-6{
-    background-image: url(clg-logo/SNSCE.png);
+    background-image: url(clg-logo/SNSPHS.png);
 }
 
 .clg-7{
-    background-image: url(clg-logo/SNSCE.png);
+    background-image: url(clg-logo/SNSAHS.png);
 }
 
 .clg-8{
-    background-image: url(clg-logo/SNSCE.png);
+    background-image: url(clg-logo/SNSCN.png);
 }
 
 .clg-9{
-    background-image: url(clg-logo/SNSCE.png);
+    background-image: url(clg-logo/SNSCP.png);
 }
 
 .clg-10{
-    background-image: url(clg-logo/SNSCE.png);
+    background-image: url(clg-logo/SNS\ Academy.png);
 }
 
 
@@ -230,6 +235,8 @@ footer{
     text-align: center;
 }
 .footerBottom p{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
     color: white;
 }
 .designer{
