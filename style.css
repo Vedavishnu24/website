@@ -32,6 +32,9 @@ body{
     font-family: 'Oswald', sans-serif;
     text-decoration: none;
     /*color: #1C97CA;*/
+    background: linear-gradient(11deg, rgb(246, 134, 50) 46%, rgb(0, 168, 89) 70%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
     color: linear-gradient(90deg, rgba(246,134,50,1) 29%, rgba(0,168,89,1) 80%);
     font-size: 30px;
     font-weight: 500;
@@ -47,8 +50,9 @@ body{
     height: 80px;
     background-color: #fff;
     border-bottom-style: solid;
-    border-bottom-color: linear-gradient(90deg, rgba(246,134,50,1) 29%, rgba(0,168,89,1) 80%);;
+    border-bottom-color: #779746;
     border-bottom-width: 2.5px;
+    padding-bottom: 6px;
 }
 #lotitile {
     line-height: 80px;
@@ -58,17 +62,41 @@ body{
 }
 
 
+/*-----------continer---------------*/
 
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
+.card{
+    background: transparent;
+    width: 220px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 15px;
+}
 
+.card-image {
+    height: 150px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
 
+.clg-1{
+    background-image: url(clg-logo/SNSCE.png);
+}
 
-
-
-
-
-
-
+.card a{
+    background-color: ;
+    color: #fff;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+}
 
 
 
@@ -125,10 +153,55 @@ body{
 
 
 /*-------------------Footer--------------------------*/
-
-
-
-
+footer{
+    background-color: #111;
+}
+.footercontainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+socialIcons{
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: WHITE;
+    margin:10px;
+    border-radius: 50%;
+}
+.socialIcons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+.socialIcons a:hover{
+    background-color:#111;
+    transition: 0.5s;
+}
+.socialIcons a:hover i{
+    background-color:#fff;
+    transition: 0.5s;
+}
+.footerNav{
+    margin: 30px 0;
+}
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+}
+.footerNav ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.footerNav ul li a:hover{
+    
+}
 /*---------------------------------------------------*/
 
 
