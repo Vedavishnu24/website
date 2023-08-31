@@ -68,6 +68,9 @@ body{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    padding-top: 100px;
+    width: 100%;
+    gap: 40px;
 }
 
 .card{
@@ -85,17 +88,53 @@ body{
     border-radius: 15px 15px 0 0;
 }
 
-.clg-1{
-    background-image: url(clg-logo/SNSCE.png);
-}
-
 .card a{
-    background-color: ;
+    background-color: linear-gradient(90deg, rgba(246,134,50,1) 29%, rgba(0,168,89,1) 80%);
     color: #fff;
     padding: 15px 20px;
     display: block;
     text-align: center;
     margin: 20px 50px;
+}
+
+.clg-1{
+    background-image: url(clg-logo/SNSCE.png);
+}
+
+.clg-2{
+    background-image: url(clg-logo/SNSCE.png);
+}
+
+.clg-3{
+    background-image: url(clg-logo/SNSCE.png);
+}
+
+.clg-4{
+    background-image: url(clg-logo/SNSCE.png);
+}
+
+.clg-5{
+    background-image: url(clg-logo/SNSCE.png);
+}
+
+.clg-6{
+    background-image: url(clg-logo/SNSCE.png);
+}
+
+.clg-7{
+    background-image: url(clg-logo/SNSCE.png);
+}
+
+.clg-8{
+    background-image: url(clg-logo/SNSCE.png);
+}
+
+.clg-9{
+    background-image: url(clg-logo/SNSCE.png);
+}
+
+.clg-10{
+    background-image: url(clg-logo/SNSCE.png);
 }
 
 
@@ -158,11 +197,12 @@ footer{
 }
 .footercontainer{
     width: 100%;
-    padding: 70px 30px 20px;
+    padding: 30px 0px 20px;
 }
-socialIcons{
+.socialIcons{
     display: flex;
     justify-content: center;
+    gap: 22px;
 }
 .socialIcons a{
     text-decoration: none;
@@ -184,25 +224,20 @@ socialIcons{
     background-color:#fff;
     transition: 0.5s;
 }
-.footerNav{
-    margin: 30px 0;
+.footerBottom{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
 }
-.footerNav ul{
-    display: flex;
-    justify-content: center;
-}
-.footerNav ul li a{
+.footerBottom p{
     color: white;
-    margin: 20px;
-    text-decoration: none;
-    font-size: 1.3em;
-    opacity: 0.7;
-    transition: 0.5s;
 }
-.footerNav ul li a:hover{
-    
+.designer{
+    opacity: 0.7s;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
 }
+
 /*---------------------------------------------------*/
-
-
-
