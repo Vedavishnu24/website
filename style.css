@@ -215,6 +215,7 @@ footer{
     background-color: WHITE;
     margin:10px;
     border-radius: 50%;
+
 }
 .socialIcons a i{
     font-size: 2em;
@@ -222,12 +223,11 @@ footer{
     opacity: 0.9;
 }
 .socialIcons a:hover{
-    background-color:#111;
+    background:#111;
    /* transition: 0.5s; */
-    color: white;
 }
 .socialIcons a:hover i{
-    background-color:#fff;
+    background:#fff;
     /*transition: 0.5s; */
     color: #111;
 }
