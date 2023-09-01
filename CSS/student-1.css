@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+  background-image: url(image/bg.jpg);
+  background-size: 100% 100vh;
+  background-position: fixed;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  backdrop-filter: blur(3px);
+}
+
+
+.header .logo a{
+  font-family: 'Oswald', sans-serif;
+  text-decoration: none;
+  /*color: #1C97CA;*/
+  background: linear-gradient(11deg, rgb(246, 134, 50) 46%, rgb(0, 168, 89) 70%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  color: linear-gradient(90deg, rgba(246,134,50,1) 29%, rgba(0,168,89,1) 80%);
+  font-size: 30px;
+  font-weight: 500;
+  display: block;
+  text-transform: uppercase;
+  float: left;
+  line-height: 80px;
+  padding-left: 25px;
+}
+
+.header {
+  width: 100%;
+  height: 80px;
+  background-color: #fff;
+  border-bottom-style: solid;
+  border-bottom-color: #779746;
+  border-bottom-width: 2.5px;
+  padding-bottom: 6px;
+}
+#lotitile {
+  line-height: 80px;
+  padding-top: 8px;
+  float: left;
+  margin-left: 10px;
+}
+
+.student-detila{
+  padding: 15px;
+  height: 22vh;
+  width: 100%;
+}
+
+.box-img {
+  position: absolute;
+  display: flex;
+  text-align: right;
+  left: 80%;
+  border-radius: 50%;
+  width:150px;
+}
+
+.student-detila b{
+  position: relative;
+  left: -26%;
+  text-align: right;
+  line-height: 1.6em;
+}
+
+.student-detila b h1{
+  font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.student-detila b h5{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+
+
+/*---------------------------------*/
+
+
+.form-box{
+  width: 85%;
+  height: 100vh;
+  position: relative;
+  margin: 5% auto;
+  background: #b7b4b4;
+  padding: 5px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.button-box{
+  width: 300px;
+  margin: 35px auto;
+  position: relative;
+  box-shadow: 0 0 20px 9px #C4C3C3;
+  border-radius: 30px;
+}
+
+.toggle-btn{
+  padding: 10px 10px 10px 40px;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  outline: none;
+  position: relative;
+}
+
+.toggle-btn.\31 {
+  padding: 0px 0px 0px 70px;
+}
+
+#btn{
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 150px;
+  height: 100%;
+  background: #ffd102;
+  border-radius: 30px;
+  transition: .5s;
+}
+
+.input-group{
+  top: 180px;
+  position: absolute;
+  width: 280px;
+  transition: .5s;
+}
+
+.input-field{
+  width: 100%;
+  padding: 10px 0;
+  margin: 5px 0;
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 1px solid #999;
+  outline: none;
+  background: transparent;
+}
+
+.submit-btn{
+  width: 85%;
+  padding: 10px 30px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  background: #FECE00;
+  border: 0;
+  outline: none;
+  border-radius: 30px;
+}
+
+.chech-box{
+  margin: 30px 10px 36px 0;
+}
+
+.input-group span{
+  color: #777;
+  font-size: 14px;
+  bottom: 68px;
+  position: absolute;
+  font-family: 'Poppins', sans-serif;
+}
+
+#student{
+  left: 50px;
+}
+
+#faculty{
+  left: 450px;
+}
+
+
+/*---------------------------------------------------*/
+
+footer{
+  background-color: #111;
+  bottom: 0px;
+  position: relative;
+}
+.footercontainer{
+  width: 100%;
+  padding: 30px 0px 20px;
+}
+.socialIcons{
+  display: flex;
+  justify-content: center;
+  gap: 22px;
+}
+.socialIcons a{
+  text-decoration: none;
+  padding: 10px;
+  background-color: WHITE;
+  margin:10px;
+  border-radius: 50%;
+
+}
+.socialIcons a i{
+  font-size: 2em;
+  color: black;
+  opacity: 0.9;
+}
+.socialIcons a:hover{
+  background:#111;
+  transition: 0.5s;
+   color: #fff; 
+}
+.socialIcons a:hover i{
+  background:#fff;
+  transition: 0.5s;
+  color: #111;
+}
+.footerBottom{
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+}
+.footerBottom p{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  color: white;
+}
+.designer{
+  opacity: 0.7s;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 0px 5px;
+}

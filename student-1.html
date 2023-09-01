@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="https://use.fontawesome.com/d1341f9b7a.js"></script>
+    <link rel="stylesheet" href="CSS/student-1.css">
+    <title>Student Profile</title>
+    <link rel="icon" type="image/x-icon" href="clg-logo/SNS Institutionsapp.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+
+<section class="header">
+  <div class="logo-menu">
+    <div id="lotitile"><img src="clg-logo/SNS Institutionsapp.png" alt="logo" width="150" height="70"></div>
+        <div class="logo">
+        <a href="#">SNS INSTITUTIONS</a>
+    </div> 
+  </div>
+</section>
+
+<section class="student-detila">
+  <img src="image/Student/raj.jpeg" alt="Avatar" class="box-img">
+  <b><h1>Rajkumar P</h1></b>
+  <b><h5>Reg No - 713321MO033</h5></b>
+  <b><h5>E-mail - rajkumar.p.mct.2021@snsce.ac.in</h5></b>
+  <b><h5>Year   - 2021 -2025</h5></b> 
+  <b><h5>Department - Mechanical Engineering</h5></b>
+</section>
+
+<div class="hero">
+  <div class="form-box">
+    <div class="button-box">
+        <div id="btn"></div>
+        <button type="button" class="toggle-btn" onclick="curriculam()">Curriculam</button>
+        <button type="button" class="toggle-btn 1" onclick="extra_curriculam()">Extra-Curriculam</button>
+    </div>
+    <form id="curriculam" class="input-group">
+        <input type="text" class="input-field" placeholder="Register Number" required>
+        <input type="text" class="input-field" placeholder="Enter Password" required>
+        <input type="checkbox" class="chech-box"><span>Remember Password</span>
+        <button type="submit" class="submit-btn">Log in</button>
+    </form>
+    <form id="extra_curriculam" class="input-group">
+        <input type="text" class="input-field" placeholder="Register Number" required>
+        <input type="text" class="input-field" placeholder="Enter Password" required>
+        <input type="checkbox" class="chech-box"><span>Remember Password</span>
+        <button type="submit" class="submit-btn">Log in</button>
+       </form>
+</div>
+</div>
+
+<!----------------------------------------->
+<footer>
+  <div class="footercontainer">
+      <div class="socialIcons"> 
+         <a href=""><i class="fa-brands fa-facebook"></i></a>
+         <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+         <a href=""><i class="fa-brands fa-linkedin"></i></a>
+         <a href=""><i class="fa-brands fa-youtube"></i></a>
+         <a href=""><i class="fa-solid fa-envelope"></i></a>
+      </div>
+  </div>    
+  <div class="footerBottom">
+        <p> Copyright &copy; 2023; Designed by <span class="designer">Sparking MCT</span></p>
+  </div>
+  
+  </footer>
+
+
+<script>
+  var x = document.getElementById("curriculam");
+  var y = document.getElementById("extra_curriculam");
+  var z = document.getElementById("btn");
+
+  function extra_curriculam(){
+    x.style.left = "-400px"
+    y.style.left = "50px"
+    z.style.left = "155px"
+  }
+
+  function curriculam(){
+    x.style.left = "50px"
+    y.style.left = "450px"
+    z.style.left = "0"
+  }
+</script>
+
+
+
+</body>
+</html>
