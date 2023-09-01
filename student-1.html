@@ -34,20 +34,117 @@
     <div class="button-box">
         <div id="btn"></div>
         <button type="button" class="toggle-btn" onclick="curriculam()">Curriculam</button>
-        <button type="button" class="toggle-btn 1" onclick="extra_curriculam()">Extra-Curriculam</button>
+        <button type="button" class="toggle-btn_1" onclick="extra_curriculam()">Extra-Curriculam</button>
     </div>
+
     <form id="curriculam" class="input-group">
+      <table>
+        <tr>
+          <th>S.No</th>
+          <th>Course</th>
+          <th>Percentage</th>
+          <th>Certificate</th>
+        </tr>
+        <tr>
+          <td>Alfreds Futterkiste</td>
+          <td>Maria Anders</td>
+          <td>Germany</td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td>Centro comercial Moctezuma</td>
+          <td>Francisco Chang</td>
+          <td>Mexico</td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td>Ernst Handel</td>
+          <td>Roland Mendel</td>
+          <td>Austria</td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td>Island Trading</td>
+          <td>Helen Bennett</td>
+          <td>UK</td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td>Laughing Bacchus Winecellars</td>
+          <td>Yoshi Tannamuri</td>
+          <td>Canada</td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td>Magazzini Alimentari Riuniti</td>
+          <td>Giovanni Rovelli</td>
+          <td>Italy</td>
+          <td> </td>
+        </tr>
+      </table>
+
+      <!--------
         <input type="text" class="input-field" placeholder="Register Number" required>
         <input type="text" class="input-field" placeholder="Enter Password" required>
         <input type="checkbox" class="chech-box"><span>Remember Password</span>
+      ---->
         <button type="submit" class="submit-btn">Log in</button>
     </form>
+
     <form id="extra_curriculam" class="input-group">
+
+      <table>
+        <tr>
+          <th>S.No</th>
+          <th>Intrested</th>
+          <th>Specialisation</th>
+          <th>Achievement</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Python</td>
+          <td>3</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Francisco Chang</td>
+          <td>Mexico</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Roland Mendel</td>
+          <td>Austria</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Helen Bennett</td>
+          <td>UK</td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+        </tr>
+      </table>
+
+      <!-- 
         <input type="text" class="input-field" placeholder="Register Number" required>
         <input type="text" class="input-field" placeholder="Enter Password" required>
         <input type="checkbox" class="chech-box"><span>Remember Password</span>
+      -->
         <button type="submit" class="submit-btn">Log in</button>
-       </form>
+    </form>
 </div>
 </div>
 
@@ -75,14 +172,14 @@
   var z = document.getElementById("btn");
 
   function extra_curriculam(){
-    x.style.left = "-400px"
-    y.style.left = "50px"
+    x.style.left = "-300px"
+    y.style.left = "500px"
     z.style.left = "155px"
   }
 
   function curriculam(){
-    x.style.left = "50px"
-    y.style.left = "450px"
+    x.style.left = "500px"
+    y.style.left = "300px"
     z.style.left = "0"
   }
 </script>

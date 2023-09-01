@@ -89,7 +89,7 @@ body{
 
 .form-box{
   width: 85%;
-  height: 100vh;
+  height: 80vh;
   position: relative;
   margin: 5% auto;
   background: #b7b4b4;
@@ -115,7 +115,13 @@ body{
   position: relative;
 }
 
-.toggle-btn.\31 {
+.toggle-btn_1{
+  padding: 10px 10px 10px 40px;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  outline: none;
+  position: relative;
   padding: 0px 0px 0px 70px;
 }
 
@@ -131,26 +137,12 @@ body{
 }
 
 .input-group{
-  top: 180px;
-  position: absolute;
-  width: 280px;
   transition: .5s;
 }
 
-.input-field{
-  width: 100%;
-  padding: 10px 0;
-  margin: 5px 0;
-  border-left: 0;
-  border-top: 0;
-  border-right: 0;
-  border-bottom: 1px solid #999;
-  outline: none;
-  background: transparent;
-}
 
 .submit-btn{
-  width: 85%;
+  width: 20%;
   padding: 10px 30px;
   cursor: pointer;
   display: block;
@@ -161,24 +153,27 @@ body{
   border-radius: 30px;
 }
 
-.chech-box{
-  margin: 30px 10px 36px 0;
+
+#curriculam{
+  padding: 10px 10px 10px 40px;
+
 }
 
-.input-group span{
-  color: #777;
-  font-size: 14px;
-  bottom: 68px;
-  position: absolute;
-  font-family: 'Poppins', sans-serif;
+#extra_curriculam{
+  padding-left: 3%;
+  padding-right: 3%;
 }
 
-#student{
-  left: 50px;
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
 }
 
-#faculty{
-  left: 450px;
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
 }
 
 
